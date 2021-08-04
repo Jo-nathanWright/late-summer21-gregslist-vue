@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-4" v-for="c in cars" :key="c.id">
+      <div class="col-3" v-for="c in cars" :key="c.id">
         <!-- Data passed through prop ':car' to child -->
         <CarCard :car="c"/>
       </div>
@@ -22,7 +22,7 @@ import CarCard from '../components/CarCard.vue'
 import CarForm from '../components/CarForm.vue'
 
 export default {
-  name: 'Home',
+  name: 'Car',
   setup(){
     // state
 

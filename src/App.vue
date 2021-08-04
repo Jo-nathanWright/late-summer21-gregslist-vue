@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-      <router-link :to="{name: 'Home'}" class="navbar-brand">Gregslist</router-link>
+      <router-link :to="{name: 'Car'}" class="navbar-brand">Gregslist</router-link>
       <button
         class="navbar-toggler d-lg-none"
         type="button"
@@ -16,15 +16,15 @@
       <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <router-link class="nav-link" :to="{name: 'Home'}"
+            <router-link class="nav-link" :to="{name: 'Car'}"
               >Cars <span class="sr-only">(current)</span></router-link
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Jobs</a>
+            <router-link class="nav-link" :to="{name: 'House'}">Houses</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Houses</a>
+            <a class="nav-link" href="#">Jobs</a>
           </li>
         </ul>
       </div>

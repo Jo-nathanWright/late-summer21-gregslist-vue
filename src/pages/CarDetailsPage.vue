@@ -33,7 +33,7 @@ export default {
         try {
           await carsService.destroy(route.params.id)
           //  navigate user back to home
-          router.push({name: 'Home'})
+          router.push({name: 'Car'})
         } catch (error) {
           console.error(error)
         }
