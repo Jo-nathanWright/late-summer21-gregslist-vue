@@ -24,7 +24,7 @@
             <router-link class="nav-link" :to="{name: 'House'}">Houses</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Jobs</a>
+            <router-link class="nav-link" :to="{name: 'Job'}">Jobs</router-link>
           </li>
         </ul>
       </div>
